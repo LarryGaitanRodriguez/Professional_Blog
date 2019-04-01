@@ -1,0 +1,36 @@
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+/*Items*/
+.nav{
+    background-color: dodgerblue;
+    grid-column: 1/6;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background-color: indigo;
+    grid-column: 1/6;
+}
+
+.post1{
+    background-color: orange;
+    grid-column: 2/5;
+}
+.post2{
+    background-color: orange;
+    grid-column: 2/5;
+}
+.post3{
+    background-color: orange;
+    grid-column: 2/5;
+}
+.footer{
+    background-color: red;
+    grid-column: 1/6;
+}
